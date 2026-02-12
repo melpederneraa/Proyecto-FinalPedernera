@@ -1,0 +1,36 @@
+.checkout-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkout-container h2 { text-align: center; }
+
+.checkout-container input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 14px;
+}
+
+.checkout-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkout-container button:hover {
+  background: #f1e90d;
+  color: black;
+}

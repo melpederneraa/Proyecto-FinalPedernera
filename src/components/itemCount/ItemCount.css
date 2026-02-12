@@ -1,0 +1,32 @@
+.item-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.item-count button {
+  padding: 6px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.item-count button:hover {
+  background: #f1e90d;
+  color: black;
+}
+
+.item-count span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
