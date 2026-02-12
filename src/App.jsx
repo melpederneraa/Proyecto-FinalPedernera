@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import ItemListContainer from "./components/itemListContainer/ItemListContainer";
 import ItemDetailContainer from "./components/itemDetailContainer/ItemDetailContainer";
-import Cart from "./pages/cart/cart";
+import Cart from "./pages/cart/Cart";
 import CheckoutForm from "./pages/checkOutForm/CheckoutForm";
 import "./App.css";
 
